@@ -1,0 +1,16 @@
+.containerMain{
+    display:inline-flex;
+    flex-direction:column;
+    margin: 80px 0;
+    padding: 50px;
+    align-self: flex-start;
+    gap: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@media only screen and (max-width: 1652px) {
+    .containerMain {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }

@@ -1,0 +1,18 @@
+.containerMain{
+    display:inline-flex;
+    flex-direction:column;
+    margin: 80px 0;
+    padding: 50px;
+    width: 60%;
+    gap: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 600px;
+    overflow:scroll;
+}
+
+@media only screen and (max-width: 1652px) {
+    .containerMain {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }

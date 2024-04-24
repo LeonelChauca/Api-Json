@@ -1,0 +1,55 @@
+.containermain{
+    background-color: #f8f9fa;
+    width: 90%;
+    margin: 20px auto;
+}
+.containertable{
+    border-collapse: collapse; 
+}
+ thead{
+    background-color: var(--color-tabla);
+    color: white;
+
+}
+ thead tr th{
+    padding: 10px 20px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+ tbody td{
+    padding: 10px 5px;
+}
+
+ tbody tr td button{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 8% 0;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--color-primario) ;
+    border: none;
+    color: #dddddd;
+    border-radius: 10px;
+    transition: background-color .3s ease;
+}
+ tbody tr td button:hover{
+    background-color: darkslateblue;
+}
+button{
+    margin: 10px;
+    padding:10px 20px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--color-primario) ;
+    border: none;
+    color: #dddddd;
+    border-radius: 10px;
+    transition: background-color .3s ease;
+}
+
+input{
+    margin: 20px;
+    padding: 10px;
+}

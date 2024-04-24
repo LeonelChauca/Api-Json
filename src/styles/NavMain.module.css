@@ -1,0 +1,35 @@
+.containermain{
+    background-color: var(--color-primario);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.containerNav{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerUrl {
+    display: flex;
+}
+.containerUrl ul li{
+    list-style: none;
+
+}
+.containerUrl ul li a{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+.containerUrl ul li a:hover{
+    background-color: #fd7e14;
+}
+
+
